@@ -136,4 +136,276 @@ locate customer
 
 ![locate](./img/12.locate.png)
 
+## Find Command 
+
+Again, this command is used to `search for files and directories` and perform subsequent operations on them
+
+It supports searching by file, folder, name , creation date, modification date, owner and permmissions.
+
+For Example
+
+$ Find . -name testfile.txt
+
+![find](./img/13.find.png)
+
+![find](./img/13.1%20find.png)
+
+## grep Command
+
+known as `global regular expression print` grep. 
+
+Used to search for a word by searching through all the texts in a specific file. Once a match is found, it prints all lines containing the specific word. The command helps in filtering through large files.
+
+![grep](./img/14.grep.png)
+
+![grep](./img/14.1grep.png)
+
+## df Command
+
+This Command is used to report system's disc space usage, it shows it in percentage and kilobyte.
+
+![df](./img/15.df.png)
+
+![df](./img/15.2df.png)
+
+## du Command
+
+Used to check how much space a file or a directory takes up in your machine. It can equally be used to identify the part of the system that uses storage excessively.
+Directory path must be specified when in use.
+
+For Example
+
+![du](./img/16.du.png)
+
+![du.1](./img/16.1du.png)
+
+## head Command
+
+This command allows viewing of `top ten lines` of a text or specified files.
+By Default, it prints the `first 10 lines` of the specified file. 
+If more than one file name is provided then data from each file is preceded by its file name.
+
+For Example
+
+![head](./img/17.head.png)
+
+![head1](./img/17.1head.png)
+
+## tail Command 
+
+The tail command displays the `last ten lines` of a file. It is used to check if a file has a new data or to read error messages.
+By Default, it prints the `last 10 lines` of the specified file. 
+If more than one file name is provided then data from each file is preceded by its file name.
+ 
+![tail](./img/18.1tail.png)
+
+![tail](./img/18.tail.png)
+
+## diff Command
+
+The diff Command tells us when two files are compare, which line in a file has to be changed to make the two files identical.
+It is used by programmers to alter a programme instead of rewriting the entire code.
+
+For  example
+
+![diff](./img/19.diff.png)
+
+![diff](./img/19.1diff.png)
+
+## tar Command 
+
+The tar commanmd is the linux version of ZIP, used for archiving multiple files into a TAR file, with optional compression .
+
+for example
+
+![tar](./img/20.tar.png)
+
+![tar](./img/20.1tar.png)
+
+
+
+# File Permission and Ownership
+
+## chmod Command
+
+This command is used to modify a file or directories read, write and execute permissions.
+Files are normally associated with three user classes which are - owner, group member and others.
+
+for example
+
+![chmod](./img/21.chmod.png)
+
+## chown Command
+
+This command allows you to change the ownership of a file, directory or symbolic link to a specified username 
+
+for example
+
+![chown](./img/22.chown.png)
+
+![chown](./img/22.1chown.png)
+
+![chown](./img/22.2chown.png)
+
+![chown](./img/22.3chown.png)
+
+## jobs Command
+
+Job is a process started by the shell. The job command will display all running processes, however, it is only available in csh, bash, tcsh and ksh shells.
+
+Examples:
+
+![jobs](./img/23.jobs.png)
+
+![jobs](./img/23.1jobs.png)
+
+![jobs](./img/23.2jobs.png)
+
+## kill Command
+
+This command is used to manually `terminate` unresponsive programme. It will signal misbehaving applications and instruct them to close their processes.
+
+![kill](./img/24.kill.png)
+
+## ping Command
+
+ping is used to test mainly for connectivity such as a network or a server if they reacheable or connected.
+
+Used to test network intefrface card and test DNS name resolution issues.
+
+For Example
+
+![ping](./img/25.ping.png)
+
+
+## wget Command
+
+wget is a command line utility which is used in `downloading files from the web`.
+The command retrieves files using HTTP, HTTPS and FTP protocals
+
+![wget](./img/26.wget.png)
+
+## uname Command
+
+The uname command prints detailed information about Linus system and hardware, these includes machine name, operating system and kernel.
+
+for example
+
+![uname](./img/27.uname.png)
+
+## top Command
+
+This Command will display all the running processes and a dynamic real-time view of the current system
+It sums up the resource utilization crom CPU to memory usage.
+
+for example
+
+![top](./img/28.top.png)
+
+## history Command
+
+history command system will list up to 500 previously executed commands for you to reuse without re-entering. Running this utility depends on Linux shell type.
+
+![history](./img/29.history.png)
+
+![history](./img/29.1history.png)
+
+## man Command
+
+This command is the user manual for most commands or utilities you can run in Terminal, including the name, discription and option.
+
+![man](./img/30.man.png)
+
+![man](./img/30.1man.png)
+
+## echo Command
+
+The echo command a built-in utility that displays a line of text or string using the standard output.
+
+![echo](./img/31.echo.png)
+
+![echo](./img/31.1echo.png)
+
+## zip, unzip Commands
+
+Zip command is used to compress files into a zip file.
+
+![zip](./img/32.1zip.png)
+
+![zip](./img/32.2zip.png)
+
+![unzip](./img/32.3unzip.png)
+
+## useradd, userdel Command
+
+The Useradd command is used to `crate new user account in Linux`. Linux is a multiuser system so more than one person can use it simultaneously. 
+When useradd command is used it performs some major changes
+
+for example
+
+![useradd](./img/33.useradd.png)
+
+![useradd](./img/33.1useradd.png)
+
+![userdel](./img/33.2userdel.png)
+
+## hostname Command 
+
+Thsi command will show the `system host name`. it can be executed without and option
+
+![hostname](./img/34.hostname.png)
+
+## apt-get Command 
+
+A command for handling Advance Package Tool in Linux. It allows for `information and bundle retrival` from authenticated sources to manage,updat, remove, and install software and its dependencies.
+
+![apt-get](./img/35.apt-get.png)
+
+
+![apt-get](./img/35.1apt-get.png)
+
+## nano, vi, jed Commands
+
+In Linux, users are allowed to `edit and manage` files via text editors, such as, nano, vi, or jed. nano and vi comes with operating system while jed has to be installed.
+
+For example
+
+![nano](./img/36.nano.png)
+
+![vi](./img/36.vi.png)
+
+## alias, unalias Commands
+
+with alias, you can `create shortcuts` with same functionality as a command, file name, or text.
+
+when executed, it instructs the shell to replace one string with another.
+
+![alias](./img/37.alias.png)
+
+![unalias](./img/37.1unalias.png)
+
+su Command
+
+sumcommand allow you to run a programme as a `different user`
+
+Beneficial for accessing the system through SSH or using GUI display manager
+
+![su](./img/38.su.png)
+
+## htop Command
+
+A command that `monitor system resources and server processes` in real time  
+
+![htop](./img/39.htop.png)
+
+## ps Command
+
+The ps command produces a snapshot of all running processes in the system.
+
+The static results are taken from the virtual files in the /proc file system.
+
+For example
+
+![ps](./img/40.ps.png)
+
 
